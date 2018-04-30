@@ -1,0 +1,15 @@
+#Internal package file, do not edit.
+#Sat Apr 21 03:42:08 IST 2018
+1.base=C\:\\Users\\hp pc\\Desktop\\osmnavi-sachin-20180420T185607Z-001\\osmnavi-sachin\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10
+2.path=classes.dex
+0.baseType=DIRECTORY
+2.base=C\:\\Users\\hp pc\\Desktop\\osmnavi-sachin-20180420T185607Z-001\\osmnavi-sachin\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\18
+2.set=DEX
+1.baseType=DIRECTORY
+count=3
+1.set=DEX
+0.path=classes.dex
+0.set=DEX
+0.base=C\:\\Users\\hp pc\\Desktop\\osmnavi-sachin-20180420T185607Z-001\\osmnavi-sachin\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10
+2.baseType=DIRECTORY
+1.path=classes2.dex

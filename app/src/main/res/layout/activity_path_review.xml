@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:layout_weight="1"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="khushboo.rohit.osmnavi.pathReview">
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_above="@+id/button17"
+        android:background="#FF296596"
+        android:textColor="#FFFFFF"
+        android:textSize="35sp"
+        android:layout_weight="30"
+
+        android:onClick="repeat"
+
+        android:text="REPEAT" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="5sp"
+        android:background="#FFFFF0"/>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_weight="30">
+
+
+        <Button
+            android:id="@+id/button17"
+            android:background="#FF296596"
+            android:onClick="previous"
+            android:text="PREVIOUS"
+
+            android:textColor="#FFFFFF"
+            android:textSize="35sp"
+            android:layout_width="50dp"
+
+            style="@android:style/Widget.Holo.Light.Button.Toggle"
+            android:layout_height="match_parent"
+            android:layout_weight="30"
+            />
+        <View
+            android:layout_width="5dp"
+            android:layout_height="match_parent"
+            android:background="#FFFFF0" />
+
+
+        <Button
+            android:id="@+id/button18"
+            android:layout_toEndOf="@+id/button17"
+            android:background="#FF296596"
+
+            android:onClick="next"
+            android:text="NEXT"
+            android:textColor="#FFFFFF"
+            android:textSize="35sp"
+
+            android:layout_width="50dp"
+            style="@android:style/Widget.Holo.Light.Button.Toggle"
+            android:layout_height="match_parent"
+            android:layout_weight="30"
+            />
+    </TableRow>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="5sp"
+        android:background="#FFFFF0"/>
+
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#FF296596"
+        android:textColor="#FFFFFF"
+        android:layout_weight="30"
+        android:textSize="35sp"
+        android:layout_below="@+id/button17"
+        android:onClick="tags"
+        android:text="TAGS" />
+
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="5sp"
+        android:background="#FFFFF0"/>
+
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#FF296596"
+        android:textColor="#FFFFFF"
+        android:layout_weight="30"
+        android:textSize="35sp"
+        android:layout_below="@+id/button17"
+        android:onClick="back"
+        android:text="BACK" />
+
+
+
+</LinearLayout>

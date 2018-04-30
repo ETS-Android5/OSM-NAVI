@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\hp pc\\Desktop\\osmnavi-sachin-20180420T185607Z-001\\osmnavi-sachin\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-h720dp-v13\\values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\hp pc\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\c59c39547a730dc28b24e4d15b41ed2c\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        }
+    ]
+}

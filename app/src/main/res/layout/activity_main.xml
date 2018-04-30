@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="khushboo.rohit.osmnavi.MainActivity">
+    <!--android:paddingBottom="5sp"-->
+    <!--android:paddingTop="5sp"-->
+
+
+    <fragment
+        android:id="@+id/ending_destination_2"
+        android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment"
+        android:layout_width="match_parent"
+        android:layout_height="80dp" />
+
+    <Button
+        android:id="@+id/btnSpeak2"
+        style="@android:style/Widget.Holo.Light.ImageButton"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_weight="30"
+        android:adjustViewBounds="false"
+        android:background="#FF296596"
+        android:contentDescription="Voice Input Button. To enter Destination tap this "
+        android:cropToPadding="false"
+        android:onClick="promptSpeechInputView"
+        android:soundEffectsEnabled="false"
+        android:tint="@color/cast_expanded_controller_background_color"
+        android:visibility="visible"
+        tools:soundEffectsEnabled="false"
+        android:text="VOICE INPUT"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="5sp"
+        android:background="#FFFFF0"/>
+
+
+    <Button
+        android:id="@+id/button8"
+        style="@android:style/Widget.Holo.Light.Button.Toggle"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_weight="30"
+        android:background="#FF296596"
+        android:backgroundTint="#FF296596"
+        android:contentDescription="Start Button. To Start Navigating tap this "
+        android:onClick="onStartButton"
+        android:text="START"
+        android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="5sp"
+        android:background="#FFFFF0"/>
+
+    <Button
+        android:id="@+id/prePlanning"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_weight="30"
+        android:background="#FF296596"
+        android:backgroundTint="#FF296596"
+        android:onClick="prePlanning"
+        android:text="ROUTE PREVIEW"
+        android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp" />
+
+</LinearLayout>
+

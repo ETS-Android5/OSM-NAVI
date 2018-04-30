@@ -1,0 +1,4 @@
+#Sat Apr 21 03:12:44 IST 2018
+base.0=C\:\\Users\\hp pc\\Desktop\\osmnavi-sachin-20180420T185607Z-001\\osmnavi-sachin\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\2
+path.0=classes.dex
+renamed.0=classes.dex

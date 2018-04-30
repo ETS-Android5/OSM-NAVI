@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <CheckBox
+        android:text="Traffic Signal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:buttonTint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:background="#000000"
+        android:layout_weight="0.2"
+        android:id="@+id/checkBox" />
+
+    <CheckBox
+        android:text="Footpath"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:buttonTint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:background="#000000"
+        android:layout_weight="0.2"
+        android:id="@+id/checkBox2" />
+
+    <CheckBox
+        android:text="Street Light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:buttonTint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:background="#000000"
+        android:layout_weight="0.2"
+        android:id="@+id/checkBox3" />
+
+    <CheckBox
+        android:text="Tactile Paving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:buttonTint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:background="#000000"
+        android:layout_weight="0.2"
+        android:id="@+id/checkBox4"
+        android:checked="false" />
+
+    <Button
+        android:text="Done"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:textColor="#FFFFFF"
+        android:background="#000000"
+        android:layout_weight="0.2"
+        android:onClick="sendMessage"
+        android:id="@+id/button2" />
+</LinearLayout>
