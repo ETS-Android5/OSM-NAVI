@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\hp pc\\Desktop\\osmnavi-sachin-20180420T185607Z-001\\osmnavi-sachin\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+            "outputFile": "F:\\Study Material\\Sem 4\\COP 315\\app_content\\versions\\vopenhouse\\osmnavi-sachin\\osmnavi-sachin\\OSM_NAVI\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\hp pc\\Desktop\\osmnavi-sachin-20180420T185607Z-001\\osmnavi-sachin\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "source": "F:\\Study Material\\Sem 4\\COP 315\\app_content\\versions\\vopenhouse\\osmnavi-sachin\\osmnavi-sachin\\OSM_NAVI\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "4",

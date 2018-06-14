@@ -55,6 +55,7 @@
 
     <Button
         android:text="Done"
+        android:contentDescription="To save tags press this "
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"

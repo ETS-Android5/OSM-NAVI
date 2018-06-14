@@ -36,6 +36,7 @@
         android:layout_height="5sp"
         android:background="#FFFFF0"/>
 
+
     <Button
         android:id="@+id/buttonNearby"
         style="@android:style/Widget.Holo.Light.Button.Toggle"
@@ -48,23 +49,45 @@
         android:text="Nearby P O I"
         android:textColor="#FFFFFF"
         android:textSize="40sp" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="5sp"
+        android:background="#FFFFF0"/>
+
+
+    <Button
+        android:layout_height="30dp"
+        android:layout_weight="30"
+        android:background="#FF296596"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:id="@+id/button"
+        style="@android:style/Widget.Holo.Light.Button.Toggle"
+        android:layout_width="match_parent"
+        android:onClick="changeLayout"
+        android:contentDescription="To enter a landmark, tap this "
+        android:text="Add Landmark"
+        />
+
 
     <View
         android:layout_width="fill_parent"
         android:layout_height="5sp"
-        android:background="#FFFFF0" />
+        android:background="#FFFFF0"/>
 
     <Button
-        android:id="@+id/buttonDebug"
-        android:contentDescription="Debug"
-        android:layout_width="match_parent"
-        android:layout_weight="30"
         android:layout_height="30dp"
+        android:layout_weight="30"
         android:background="#FF296596"
-        android:text="Debug"
-        android:onClick="onDebug"
         android:textColor="#FFFFFF"
-        android:textSize="40sp" />
+        android:textSize="40sp"
+        android:layout_width="match_parent"
+        android:text="Save route"
+        android:contentDescription="To save this route, tap this "
+        android:id="@+id/button_save"
+        android:onClick="onSaveButton"
+        style="@android:style/Widget.Holo.Light.Button.Toggle" />
+
 
     <View
         android:layout_width="fill_parent"

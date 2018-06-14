@@ -20,28 +20,48 @@
 
     <Button
         android:id="@+id/btnSpeak2"
-        style="@android:style/Widget.Holo.Light.ImageButton"
+        style="@android:style/Widget.Holo.Light.Button.Toggle"
         android:layout_width="match_parent"
         android:layout_height="30dp"
         android:layout_weight="30"
         android:adjustViewBounds="false"
         android:background="#FF296596"
+        android:backgroundTint="#FF296596"
         android:contentDescription="Voice Input Button. To enter Destination tap this "
         android:cropToPadding="false"
         android:onClick="promptSpeechInputView"
         android:soundEffectsEnabled="false"
-        android:tint="@color/cast_expanded_controller_background_color"
-        android:visibility="visible"
-        tools:soundEffectsEnabled="false"
         android:text="VOICE INPUT"
         android:textColor="#FFFFFF"
-        android:textSize="40sp"/>
+        android:textSize="40sp"
+        android:tint="@color/cast_expanded_controller_background_color"
+        android:visibility="visible"
+        tools:soundEffectsEnabled="false" />
 
     <View
         android:layout_width="fill_parent"
         android:layout_height="5sp"
         android:background="#FFFFF0"/>
 
+
+    <Button
+        android:backgroundTint="#FF296596"
+        android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
+        android:layout_width="match_parent"
+        android:text="SAVED ROUTES"
+        android:contentDescription="To load saved route, tap this "
+        android:id="@+id/button_save"
+        android:onClick="onSaveButton"
+        style="@android:style/Widget.Holo.Light.Button.Toggle"
+        android:layout_weight="30"
+        android:layout_height="30dp"
+        android:background="#FF296596"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp" />/>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="5sp"
+        android:background="#FFFFF0" />
 
     <Button
         android:id="@+id/button8"
@@ -66,6 +86,7 @@
     <Button
         android:id="@+id/prePlanning"
         android:layout_width="match_parent"
+        android:contentDescription="Route Preview Button. To Start pre-planning tap this "
         android:layout_height="30dp"
         android:layout_weight="30"
         android:background="#FF296596"
@@ -73,6 +94,22 @@
         android:onClick="prePlanning"
         android:text="ROUTE PREVIEW"
         android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="5sp"
+        android:background="#FFFFF0" />
+
+    <Button
+        android:id="@+id/buttonDebug"
+        android:contentDescription="Debug"
+        android:layout_width="match_parent"
+        android:layout_weight="30"
+        android:layout_height="30dp"
+        android:background="#FF296596"
+        android:text="Debug"
+        android:onClick="onDebug"
         android:textColor="#FFFFFF"
         android:textSize="40sp" />
 

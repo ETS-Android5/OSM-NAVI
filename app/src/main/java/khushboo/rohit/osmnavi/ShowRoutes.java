@@ -53,7 +53,18 @@ public class ShowRoutes extends ListActivity {
         Intent returnIntent = new Intent();
         returnIntent.putExtra("selectedRoute", route_ids.get(position));
         returnIntent.putExtra("selectedRouteDistance", route_distances.get(position));
+        returnIntent.putExtra("selectedRouteName", route_names.get(position));
         setResult(Activity.RESULT_OK,returnIntent);
         finish();
     }
+
+
+//    @Override
+//    protected void onListItemClick (ListView l, View v, int position, long id) {
+//        Intent returnIntent = new Intent();
+//        returnIntent.putExtra("selectedRoute", route_ids.get(position));
+//        returnIntent.putExtra("selectedRouteDistance", route_distances.get(position));
+//        setResult(Activity.RESULT_OK,returnIntent);
+//        finish();
+//    }
 }

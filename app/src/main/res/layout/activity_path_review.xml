@@ -13,6 +13,7 @@
     <Button
         android:id="@+id/button13"
         android:layout_width="match_parent"
+        android:contentDescription="To Repeat the instruction tap this "
         android:layout_height="30dp"
         android:layout_above="@+id/button17"
         android:background="#FF296596"
@@ -39,7 +40,7 @@
             android:background="#FF296596"
             android:onClick="previous"
             android:text="PREVIOUS"
-
+            android:contentDescription="For the previous instruction tap this "
             android:textColor="#FFFFFF"
             android:textSize="35sp"
             android:layout_width="50dp"
@@ -58,7 +59,7 @@
             android:id="@+id/button18"
             android:layout_toEndOf="@+id/button17"
             android:background="#FF296596"
-
+            android:contentDescription="For the next instruction tap this "
             android:onClick="next"
             android:text="NEXT"
             android:textColor="#FFFFFF"
@@ -80,6 +81,7 @@
     <Button
         android:id="@+id/button20"
         android:layout_width="match_parent"
+        android:contentDescription="For getting road attributes tap this "
         android:layout_height="30dp"
         android:background="#FF296596"
         android:textColor="#FFFFFF"
@@ -100,6 +102,7 @@
         android:id="@+id/button19"
         android:layout_width="match_parent"
         android:layout_height="30dp"
+        android:contentDescription="To exit route pre-planning tap this "
         android:background="#FF296596"
         android:textColor="#FFFFFF"
         android:layout_weight="30"

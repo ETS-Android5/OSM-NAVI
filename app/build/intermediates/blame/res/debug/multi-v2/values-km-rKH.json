@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\hp pc\\Desktop\\osmnavi-sachin-20180420T185607Z-001\\osmnavi-sachin\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-km-rKH\\values-km-rKH.xml",
+            "outputFile": "F:\\Study Material\\Sem 4\\COP 315\\app_content\\versions\\vopenhouse\\osmnavi-sachin\\osmnavi-sachin\\OSM_NAVI\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-km-rKH\\values-km-rKH.xml",
             "map": [
                 {
                     "source": "C:\\Users\\hp pc\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\c59c39547a730dc28b24e4d15b41ed2c\\res\\values-km-rKH\\values-km-rKH.xml",

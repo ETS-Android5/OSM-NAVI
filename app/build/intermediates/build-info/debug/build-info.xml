@@ -1,104 +1,104 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
     abi="arm64-v8a,armeabi-v7a,armeabi"
-    api-level="26"
+    api-level="24"
     build-mode="FULL"
-    density="420dpi"
+    density="xxhdpi"
     format="10"
     plugin-version="3.0.1"
-    timestamp="1524262042695"
-    token="935226537604252760"
+    timestamp="1528269240852"
+    token="3158177611115289427"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="1319" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="317" />
+        duration="4872" />
     <task
         name="verifier"
-        duration="116" />
+        duration="0" />
 
     <artifact
-        location="C:\Users\hp pc\Desktop\osmnavi-sachin-20180420T185607Z-001\osmnavi-sachin\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        location="F:\Study Material\Sem 4\COP 315\app_content\versions\vopenhouse\osmnavi-sachin\osmnavi-sachin\OSM_NAVI\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\hp pc\Desktop\osmnavi-sachin-20180420T185607Z-001\osmnavi-sachin\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+        location="F:\Study Material\Sem 4\COP 315\app_content\versions\vopenhouse\osmnavi-sachin\osmnavi-sachin\OSM_NAVI\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\hp pc\Desktop\osmnavi-sachin-20180420T185607Z-001\osmnavi-sachin\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        location="F:\Study Material\Sem 4\COP 315\app_content\versions\vopenhouse\osmnavi-sachin\osmnavi-sachin\OSM_NAVI\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\hp pc\Desktop\osmnavi-sachin-20180420T185607Z-001\osmnavi-sachin\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+        location="F:\Study Material\Sem 4\COP 315\app_content\versions\vopenhouse\osmnavi-sachin\osmnavi-sachin\OSM_NAVI\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\hp pc\Desktop\osmnavi-sachin-20180420T185607Z-001\osmnavi-sachin\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+        location="F:\Study Material\Sem 4\COP 315\app_content\versions\vopenhouse\osmnavi-sachin\osmnavi-sachin\OSM_NAVI\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\hp pc\Desktop\osmnavi-sachin-20180420T185607Z-001\osmnavi-sachin\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        location="F:\Study Material\Sem 4\COP 315\app_content\versions\vopenhouse\osmnavi-sachin\osmnavi-sachin\OSM_NAVI\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\hp pc\Desktop\osmnavi-sachin-20180420T185607Z-001\osmnavi-sachin\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        location="F:\Study Material\Sem 4\COP 315\app_content\versions\vopenhouse\osmnavi-sachin\osmnavi-sachin\OSM_NAVI\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\hp pc\Desktop\osmnavi-sachin-20180420T185607Z-001\osmnavi-sachin\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+        location="F:\Study Material\Sem 4\COP 315\app_content\versions\vopenhouse\osmnavi-sachin\osmnavi-sachin\OSM_NAVI\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\hp pc\Desktop\osmnavi-sachin-20180420T185607Z-001\osmnavi-sachin\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        location="F:\Study Material\Sem 4\COP 315\app_content\versions\vopenhouse\osmnavi-sachin\osmnavi-sachin\OSM_NAVI\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\hp pc\Desktop\osmnavi-sachin-20180420T185607Z-001\osmnavi-sachin\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        location="F:\Study Material\Sem 4\COP 315\app_content\versions\vopenhouse\osmnavi-sachin\osmnavi-sachin\OSM_NAVI\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\hp pc\Desktop\osmnavi-sachin-20180420T185607Z-001\osmnavi-sachin\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        location="F:\Study Material\Sem 4\COP 315\app_content\versions\vopenhouse\osmnavi-sachin\osmnavi-sachin\OSM_NAVI\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\hp pc\Desktop\osmnavi-sachin-20180420T185607Z-001\osmnavi-sachin\app\build\outputs\apk\debug\app-debug.apk"
+        location="F:\Study Material\Sem 4\COP 315\app_content\versions\vopenhouse\osmnavi-sachin\osmnavi-sachin\OSM_NAVI\app\build\outputs\apk\debug\app-debug.apk"
         type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1524262042695"
+        timestamp="1528269240852"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Users\hp pc\Desktop\osmnavi-sachin-20180420T185607Z-001\osmnavi-sachin\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            location="F:\Study Material\Sem 4\COP 315\app_content\versions\vopenhouse\osmnavi-sachin\osmnavi-sachin\OSM_NAVI\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\hp pc\Desktop\osmnavi-sachin-20180420T185607Z-001\osmnavi-sachin\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            location="F:\Study Material\Sem 4\COP 315\app_content\versions\vopenhouse\osmnavi-sachin\osmnavi-sachin\OSM_NAVI\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\hp pc\Desktop\osmnavi-sachin-20180420T185607Z-001\osmnavi-sachin\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            location="F:\Study Material\Sem 4\COP 315\app_content\versions\vopenhouse\osmnavi-sachin\osmnavi-sachin\OSM_NAVI\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\hp pc\Desktop\osmnavi-sachin-20180420T185607Z-001\osmnavi-sachin\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            location="F:\Study Material\Sem 4\COP 315\app_content\versions\vopenhouse\osmnavi-sachin\osmnavi-sachin\OSM_NAVI\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\hp pc\Desktop\osmnavi-sachin-20180420T185607Z-001\osmnavi-sachin\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            location="F:\Study Material\Sem 4\COP 315\app_content\versions\vopenhouse\osmnavi-sachin\osmnavi-sachin\OSM_NAVI\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\hp pc\Desktop\osmnavi-sachin-20180420T185607Z-001\osmnavi-sachin\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            location="F:\Study Material\Sem 4\COP 315\app_content\versions\vopenhouse\osmnavi-sachin\osmnavi-sachin\OSM_NAVI\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\hp pc\Desktop\osmnavi-sachin-20180420T185607Z-001\osmnavi-sachin\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            location="F:\Study Material\Sem 4\COP 315\app_content\versions\vopenhouse\osmnavi-sachin\osmnavi-sachin\OSM_NAVI\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\hp pc\Desktop\osmnavi-sachin-20180420T185607Z-001\osmnavi-sachin\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            location="F:\Study Material\Sem 4\COP 315\app_content\versions\vopenhouse\osmnavi-sachin\osmnavi-sachin\OSM_NAVI\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\hp pc\Desktop\osmnavi-sachin-20180420T185607Z-001\osmnavi-sachin\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            location="F:\Study Material\Sem 4\COP 315\app_content\versions\vopenhouse\osmnavi-sachin\osmnavi-sachin\OSM_NAVI\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\hp pc\Desktop\osmnavi-sachin-20180420T185607Z-001\osmnavi-sachin\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            location="F:\Study Material\Sem 4\COP 315\app_content\versions\vopenhouse\osmnavi-sachin\osmnavi-sachin\OSM_NAVI\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\hp pc\Desktop\osmnavi-sachin-20180420T185607Z-001\osmnavi-sachin\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            location="F:\Study Material\Sem 4\COP 315\app_content\versions\vopenhouse\osmnavi-sachin\osmnavi-sachin\OSM_NAVI\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\hp pc\Desktop\osmnavi-sachin-20180420T185607Z-001\osmnavi-sachin\app\build\outputs\apk\debug\app-debug.apk"
+            location="F:\Study Material\Sem 4\COP 315\app_content\versions\vopenhouse\osmnavi-sachin\osmnavi-sachin\OSM_NAVI\app\build\outputs\apk\debug\app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
 

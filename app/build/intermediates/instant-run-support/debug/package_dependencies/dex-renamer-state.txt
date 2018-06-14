@@ -1,7 +1,7 @@
-#Sat Apr 21 01:18:42 IST 2018
-base.0=C\:\\Users\\hp pc\\Desktop\\osmnavi-sachin-20180420T185607Z-001\\osmnavi-sachin\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10
+#Wed Jun 06 12:45:12 IST 2018
+base.0=F\:\\Study Material\\Sem 4\\COP 315\\app_content\\versions\\vopenhouse\\osmnavi-sachin\\osmnavi-sachin\\OSM_NAVI\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
 path.1=classes2.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=C\:\\Users\\hp pc\\Desktop\\osmnavi-sachin-20180420T185607Z-001\\osmnavi-sachin\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10
+base.1=F\:\\Study Material\\Sem 4\\COP 315\\app_content\\versions\\vopenhouse\\osmnavi-sachin\\osmnavi-sachin\\OSM_NAVI\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
