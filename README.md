@@ -21,3 +21,6 @@ Search for nearby points of interest while navigating  <br />
 Uses Open Street Mapping (OSM) and routing (OSRM) services for route allocation <br /> 
 
 Allows addition of personal landmarks and instructions<br />
+
+
+Read about the initiative at this [Medium Blog](https://medium.com/@tanmaygoyal98/osm-navi-424fc63df8eb)
