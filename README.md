@@ -6,7 +6,7 @@ Android Application to enable Independent Navigation for the Visually Impaired<b
 
 It is an audio-based interactive app specifically designed for the visually impaired that provides verbal instructions instead of visual cues. 
 
-Key Features:<br />
+## Key Features:<br />
 
 Audio based interaction, simple and blind-friendly interface<br /> 
 
