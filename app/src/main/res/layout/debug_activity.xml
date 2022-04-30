@@ -7,7 +7,7 @@
     android:layout_weight="1"
     android:orientation="vertical"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="khushboo.rohit.osmnavi.MainActivity">
+    tools:context="khushboo.rohit.osmnavi.debugAcitivity">
 
     <View
         android:layout_width="fill_parent"
@@ -21,30 +21,11 @@
         android:layout_height="30dp"
         android:layout_weight="30"
         android:background="#FF296596"
-        android:contentDescription="To view and edit instructions tap this "
+        android:contentDescription="View instructions "
         android:onClick="onDebugButton"
         android:text="View Instructions"
         android:textColor="#FFFFFF"
         android:textSize="40sp" />
-
-    <View
-        android:layout_width="fill_parent"
-        android:layout_height="5sp"
-        android:background="#FFFFFF" />
-
-    <Button
-        android:id="@+id/button5"
-        style="@android:style/Widget.Holo.Light.Button.Toggle"
-        android:layout_width="match_parent"
-        android:layout_height="30dp"
-        android:layout_weight="30"
-        android:background="#FF296596"
-        android:contentDescription="To export route trace tap this "
-        android:onClick="exportDb"
-        android:text="Export Route Trace"
-        android:textColor="#FFFFFF"
-        android:textSize="40sp" />
-
 
     <View
         android:layout_width="fill_parent"
@@ -59,7 +40,7 @@
         android:layout_height="30dp"
         android:layout_weight="30"
         android:background="#FF296596"
-        android:contentDescription="To show local database tap this "
+        android:contentDescription="Show local database "
         android:onClick="showMessage1"
         android:text="Show Database"
         android:textColor="#FFFFFF"
@@ -77,7 +58,7 @@
         android:layout_height="30dp"
         android:layout_weight="30"
         android:background="#FF296596"
-        android:contentDescription="To clear app database tap this "
+        android:contentDescription="Clear Database "
         android:onClick="clearData"
         android:text="Clear Data"
         android:textColor="#FFFFFF"
@@ -96,9 +77,9 @@
         android:layout_height="30dp"
         android:layout_weight="30"
         android:background="#FF296596"
-        android:contentDescription="To exit debug menu Start pre-planning tap this "
+        android:contentDescription="Exit "
         android:onClick="onStopDebug"
-        android:text="Back"
+        android:text="Exit"
         android:textColor="#FFFFFF"
         android:textSize="40sp" />
 

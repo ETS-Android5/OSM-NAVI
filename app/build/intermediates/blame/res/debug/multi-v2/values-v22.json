@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\Study Material\\Sem 4\\COP 315\\app_content\\versions\\vopenhouse\\osmnavi-sachin\\osmnavi-sachin\\OSM_NAVI\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
+            "outputFile": "/home/arjun/Documents/NAVI/v_20_07_20_POI_AutoPlaceComplete/OSM_NAVI/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v22/values-v22.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\hp pc\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\c59c39547a730dc28b24e4d15b41ed2c\\res\\values-v22\\values-v22.xml",
+                    "source": "/home/arjun/.gradle/caches/transforms-2/files-2.1/f1b9f241302b3f08adddc9fece6eea17/res/values-v22/values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\Study Material\\Sem 4\\COP 315\\app_content\\versions\\vopenhouse\\osmnavi-sachin\\osmnavi-sachin\\OSM_NAVI\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+            "outputFile": "/home/arjun/Documents/NAVI/v_20_07_20_POI_AutoPlaceComplete/OSM_NAVI/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\hp pc\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\c59c39547a730dc28b24e4d15b41ed2c\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "/home/arjun/.gradle/caches/transforms-2/files-2.1/f1b9f241302b3f08adddc9fece6eea17/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -14,39 +14,22 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\hp pc\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-24.0.0.aar\\de8d96ab4469c066bcdb7778020b8b5a\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "/home/arjun/.gradle/caches/transforms-2/files-2.1/1a42f52d1ebe62ffe9805a8f1fde7032/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,124",
-                        "endColumns": "68,68",
-                        "endOffsets": "119,188"
+                        "startLines": "2,3,4,5,6,7,8,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,115,185,256,328,386,444,553,617,680",
+                        "endLines": "2,3,4,5,6,7,9,10,11,15",
+                        "endColumns": "59,69,70,71,57,57,10,63,62,10",
+                        "endOffsets": "110,180,251,323,381,439,548,612,675,847"
                     },
                     "to": {
-                        "startLines": "18,19",
-                        "startColumns": "4,4",
-                        "startOffsets": "1170,1239",
-                        "endColumns": "68,68",
-                        "endOffsets": "1234,1303"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\hp pc\\.gradle\\caches\\transforms-1\\files-1.1\\design-25.3.1.aar\\06687ce56371b95d5544c0170ca75278\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11",
+                        "startLines": "10,11,12,13,14,15,16,18,19,20",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,115,185,256,328,386,444,550,614,677",
-                        "endLines": "2,3,4,5,6,7,8,9,10,14",
-                        "endColumns": "59,69,70,71,57,57,105,63,62,12",
-                        "endOffsets": "110,180,251,323,381,439,545,609,672,854"
-                    },
-                    "to": {
-                        "startLines": "10,11,12,13,14,15,16,17,20,21",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "611,671,741,812,884,942,1000,1106,1308,1371",
-                        "endLines": "10,11,12,13,14,15,16,17,20,24",
-                        "endColumns": "59,69,70,71,57,57,105,63,62,12",
-                        "endOffsets": "666,736,807,879,937,995,1101,1165,1366,1548"
+                        "startOffsets": "611,671,741,812,884,942,1000,1109,1173,1236",
+                        "endLines": "10,11,12,13,14,15,17,18,19,23",
+                        "endColumns": "59,69,70,71,57,57,10,63,62,10",
+                        "endOffsets": "666,736,807,879,937,995,1104,1168,1231,1403"
                     }
                 }
             ]

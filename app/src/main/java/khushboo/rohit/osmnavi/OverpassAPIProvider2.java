@@ -28,12 +28,12 @@ import org.osmdroid.util.BoundingBox;
 import org.osmdroid.util.GeoPoint;
 
 public class OverpassAPIProvider2 {
-    public static final String OVERPASS_API_DE_SERVICE = "http://overpass-api.de/api/interpreter";
-    public static final String OVERPASS_API_SERVICE = "http://api.openstreetmap.fr/oapi/interpreter";
+    public static final String OVERPASS_API_DE_SERVICE = "https://overpass-api.de/api/interpreter";
+    public static final String OVERPASS_API_SERVICE = "https://api.openstreetmap.fr/oapi/interpreter";
     protected String mService;
 
     public OverpassAPIProvider2() {
-        this.setService("http://overpass-api.de/api/interpreter");
+        this.setService("https://overpass-api.de/api/interpreter");
     }
 
     public void setService(String serviceUrl) {
@@ -91,10 +91,7 @@ public class OverpassAPIProvider2 {
                     if(jo.has("tags")) {
                         jCenter = jo.get("tags").getAsJsonObject();
                         poi.mType = this.tagValueFromJson("name", jCenter);
-                        poi.mDescription = this.tagValueFromJsonNotNull("amenity", jCenter) + this.tagValueFromJsonNotNull("boundary", jCenter) + this.tagValueFromJsonNotNull("building", jCenter) + this.tagValueFromJsonNotNull("craft", jCenter) + this.tagValueFromJsonNotNull("emergency", jCenter) + this.tagValueFromJsonNotNull("highway", jCenter) + this.tagValueFromJsonNotNull("historic", jCenter) + this.tagValueFromJsonNotNull("landuse", jCenter) + this.tagValueFromJsonNotNull("leisure", jCenter) + this.tagValueFromJsonNotNull("natural", jCenter) + this.tagValueFromJsonNotNull("shop", jCenter) + this.tagValueFromJsonNotNull("sport", jCenter) + this.tagValueFromJsonNotNull("tourism", jCenter);
-                        if(poi.mDescription.length() > 0) {
-                            poi.mDescription = poi.mDescription.substring(1);
-                        }
+                        poi.mDescription = this.tagValueFromJsonNotNull("amenity", jCenter);
 
                         poi.mUrl = this.tagValueFromJson("website", jCenter);
                         if(poi.mUrl != null && !poi.mUrl.startsWith("http://") && !poi.mUrl.startsWith("https://")) {
@@ -252,7 +249,7 @@ public class OverpassAPIProvider2 {
                     JsonObject jo = j.getAsJsonObject();
                     POI poi = new POI(POI.POI_SERVICE_OVERPASS_API);
                     poi.mId = jo.get("id").getAsLong();
-                    poi.mCategory = jo.get("type").getAsString();                                   // type of element
+                    poi.mCategory = jo.get("type").getAsString();
                     JsonObject jCenter;
                     if(jo.has("tags")) {
                         jCenter = jo.get("tags").getAsJsonObject();
@@ -267,6 +264,56 @@ public class OverpassAPIProvider2 {
                     }
 
                     if("node".equals(poi.mCategory)) {
+                        poi.mLocation = this.geoPointFromJson(jo);
+                    } else if(jo.has("center")) {
+                        jCenter = jo.get("center").getAsJsonObject();
+                        poi.mLocation = this.geoPointFromJson(jCenter);
+                    }
+
+                    if(poi.mLocation != null) {
+                        pois.add(poi);
+                    }
+                }
+
+                return pois;
+            } catch (JsonSyntaxException var13) {
+                Log.e("BONUSPACK", "OverpassAPIProvider: parsing error.");
+                return null;
+            }
+        }
+    }
+
+    public ArrayList<POI> getPOIsFromUrlNode(String url) {
+        Log.d("BONUSPACK", "OverpassAPIProvider:getPOIsFromUrl:" + url);
+        String jString = BonusPackHelper.requestStringFromUrl(url);
+        if(jString == null) {
+            Log.e("BONUSPACK", "OverpassAPIProvider: request failed.");
+            return null;
+        } else {
+            try {
+                JsonParser parser = new JsonParser();
+                JsonElement json = parser.parse(jString);
+                JsonObject jResult = json.getAsJsonObject();
+                JsonArray jElements = jResult.get("elements").getAsJsonArray();
+                ArrayList<POI> pois = new ArrayList(jElements.size());
+                Iterator var8 = jElements.iterator();
+
+                while(var8.hasNext()) {
+                    JsonElement j = (JsonElement)var8.next();
+                    JsonObject jo = j.getAsJsonObject();
+                    POI poi = new POI(POI.POI_SERVICE_OVERPASS_API);
+                    poi.mId = jo.get("id").getAsLong();
+                    if(jo.get("crossing")!= null) {
+                        poi.mCategory = jo.get("crossing").getAsString();   // type of element
+                    }
+                                                   // type of element
+                    JsonObject jCenter;
+                    if("node".equals(poi.mCategory)) {
+                        if(jo.has("tags")) {
+                            jCenter = jo.get("tags").getAsJsonObject();
+                            poi.mType = this.tagValueFromJson("highway", jCenter); // type of node
+                            poi.mDescription = this.tagValueFromJsonNotNull("crossing", jCenter);   // type of crossing
+                        }
                         poi.mLocation = this.geoPointFromJson(jo);
                     } else if(jo.has("center")) {
                         jCenter = jo.get("center").getAsJsonObject();

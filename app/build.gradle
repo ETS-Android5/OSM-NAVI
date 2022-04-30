@@ -2,13 +2,13 @@ apply plugin: 'com.android.application'
 
 
 android {
-    compileSdkVersion 25
-    buildToolsVersion '26.0.2'
+    compileSdkVersion 29
+    buildToolsVersion '28.0.3'
 
     defaultConfig {
         applicationId "khushboo.rohit.osmnavi"
         minSdkVersion 23
-        targetSdkVersion 25
+        targetSdkVersion 29
         versionCode 1
         versionName "1.0"
         multiDexEnabled true
@@ -22,17 +22,18 @@ android {
 }
 
 dependencies {
-    implementation 'com.android.support.constraint:constraint-layout:1.1.0'
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile 'junit:junit:4.12'
-    compile 'com.android.support:appcompat-v7:25.3.1'
-    compile 'com.github.MKergall:osmbonuspack:6.0'
-    compile 'com.google.android.gms:play-services:10.0.1'
-    compile 'com.android.support:design:25.3.1'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'junit:junit:4.12'
+    //noinspection GradleCompatible
+    implementation 'com.google.android.libraries.places:places:2.2.0'
+    implementation 'androidx.appcompat:appcompat:1.0.0'
+    implementation 'com.github.MKergall:osmbonuspack:6.0'
+
+    //noinspection GradleCompatible
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'com.microsoft.projectoxford:vision:1.0.374'
+    implementation "com.ibm.icu:icu4j:53.1"
     //compile 'org.osmdroid:osmdroid-android:5.6.5'
 }
-
-
-
-
-

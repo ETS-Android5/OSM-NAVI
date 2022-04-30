@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\Study Material\\Sem 4\\COP 315\\app_content\\versions\\vopenhouse\\osmnavi-sachin\\osmnavi-sachin\\OSM_NAVI\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
+            "outputFile": "/home/arjun/Documents/NAVI/v_20_07_20_POI_AutoPlaceComplete/OSM_NAVI/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\hp pc\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\c59c39547a730dc28b24e4d15b41ed2c\\res\\values-v23\\values-v23.xml",
+                    "source": "/home/arjun/.gradle/caches/transforms-2/files-2.1/f1b9f241302b3f08adddc9fece6eea17/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
@@ -12,6 +12,25 @@
                         "endLines": "2,3,4,5,18,31,32,33,34,35,36",
                         "endColumns": "134,134,74,86,12,12,126,104,114,106,112",
                         "endOffsets": "185,320,395,482,1272,2074,2201,2306,2421,2528,2641"
+                    }
+                },
+                {
+                    "source": "/home/arjun/.gradle/caches/transforms-2/files-2.1/b455af6b3d38dfd0fdae5b9118b5e976/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "200"
+                    },
+                    "to": {
+                        "startLines": "37",
+                        "startColumns": "4",
+                        "startOffsets": "2646",
+                        "endLines": "39",
+                        "endColumns": "12",
+                        "endOffsets": "2791"
                     }
                 }
             ]

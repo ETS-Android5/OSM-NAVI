@@ -12,36 +12,102 @@
     <!--android:paddingTop="5sp"-->
 
 
-    <fragment
-        android:id="@+id/ending_destination_2"
-        android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment"
-        android:layout_width="match_parent"
-        android:layout_height="80dp" />
-
-    <Button
-        android:id="@+id/btnSpeak2"
-        style="@android:style/Widget.Holo.Light.Button.Toggle"
-        android:layout_width="match_parent"
+    <TableLayout
+        android:layout_width="fill_parent"
         android:layout_height="30dp"
         android:layout_weight="30"
-        android:adjustViewBounds="false"
-        android:background="#FF296596"
-        android:backgroundTint="#FF296596"
-        android:contentDescription="Voice Input Button. To enter Destination tap this "
-        android:cropToPadding="false"
-        android:onClick="promptSpeechInputView"
-        android:soundEffectsEnabled="false"
-        android:text="VOICE INPUT"
-        android:textColor="#FFFFFF"
-        android:textSize="40sp"
-        android:tint="@color/cast_expanded_controller_background_color"
-        android:visibility="visible"
-        tools:soundEffectsEnabled="false" />
+        android:stretchColumns="1,2"
+        >
+        <TableRow>
+            <fragment
+                android:id="@+id/ending_destination_2"
+                android:name="com.google.android.libraries.places.widget.AutocompleteSupportFragment"
+                android:layout_width="370dp"
+                android:layout_height="match_parent"
+                android:layout_weight="30"
+                android:contentDescription="Enter Destination "
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/btnSpeak2" />
 
+            <Button
+                android:id="@+id/btnSpeak2"
+                style="@android:style/Widget.Holo.Light.Button.Toggle"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_weight="30"
+                android:adjustViewBounds="false"
+                android:textColor="#FFFFFF"
+                android:textSize="40sp"
+                android:contentDescription="Voice Input "
+                android:cropToPadding="false"
+                android:onClick="promptSpeechInputView"
+                android:soundEffectsEnabled="false"
+                android:background="@drawable/speechimage"
+                android:gravity="center"
+                android:text=""
+                android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
+                android:visibility="visible"
+                tools:soundEffectsEnabled="false" />
+
+        </TableRow>
+    </TableLayout>
+
+    <!--<Button
+        android:backgroundTint="#FF296596"
+        android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
+        android:layout_width="match_parent"
+        android:text="SCENE DESCRIPTION"
+        android:contentDescription="Scene Description "
+        android:id="@+id/button_image"
+        android:onClick="onImageButton"
+        style="@android:style/Widget.Holo.Light.Button.Toggle"
+        android:layout_weight="30"
+        android:layout_height="30dp"
+        android:background="#FF296596"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp" />/>
     <View
         android:layout_width="fill_parent"
         android:layout_height="5sp"
-        android:background="#FFFFF0"/>
+        android:background="#FFFFF0" />!-->
+
+    <Button
+        android:backgroundTint="#FF296596"
+        android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
+        android:layout_width="match_parent"
+        android:text="WHERE AM I"
+        android:contentDescription="Where Am I "
+        android:id="@+id/button_wai"
+        android:onClick="whereAmI"
+        style="@android:style/Widget.Holo.Light.Button.Toggle"
+        android:layout_weight="30"
+        android:layout_height="30dp"
+        android:background="#FF296596"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="5sp"
+        android:background="#FFFFF0" />
+
+    <Button
+        android:backgroundTint="#FF296596"
+        android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
+        android:layout_width="match_parent"
+        android:text="SHARE LOCATION"
+        android:contentDescription="Share Your Location "
+        android:id="@+id/button_sl"
+        android:onClick="shareloc"
+        style="@android:style/Widget.Holo.Light.Button.Toggle"
+        android:layout_weight="30"
+        android:layout_height="30dp"
+        android:background="#FF296596"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="5sp"
+        android:background="#FFFFF0" />
 
 
     <Button
@@ -49,15 +115,15 @@
         android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
         android:layout_width="match_parent"
         android:text="SAVED ROUTES"
-        android:contentDescription="To load saved route, tap this "
+        android:contentDescription="Load saved route "
         android:id="@+id/button_save"
-        android:onClick="onSaveButton"
+        android:onClick="onLoadRouteButton"
         style="@android:style/Widget.Holo.Light.Button.Toggle"
         android:layout_weight="30"
         android:layout_height="30dp"
         android:background="#FF296596"
         android:textColor="#FFFFFF"
-        android:textSize="40sp" />/>
+        android:textSize="40sp" />
     <View
         android:layout_width="fill_parent"
         android:layout_height="5sp"
@@ -71,7 +137,7 @@
         android:layout_weight="30"
         android:background="#FF296596"
         android:backgroundTint="#FF296596"
-        android:contentDescription="Start Button. To Start Navigating tap this "
+        android:contentDescription="Start "
         android:onClick="onStartButton"
         android:text="START"
         android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
@@ -86,13 +152,31 @@
     <Button
         android:id="@+id/prePlanning"
         android:layout_width="match_parent"
-        android:contentDescription="Route Preview Button. To Start pre-planning tap this "
+        android:contentDescription="Route Preview "
         android:layout_height="30dp"
         android:layout_weight="30"
         android:background="#FF296596"
         android:backgroundTint="#FF296596"
-        android:onClick="prePlanning"
+        android:onClick="onPrePlanButton"
         android:text="ROUTE PREVIEW"
+        android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="5sp"
+        android:background="#FFFFF0" />
+
+    <Button
+        android:id="@+id/searchpoi"
+        android:layout_width="match_parent"
+        android:contentDescription="Search Points of Interest "
+        android:layout_height="30dp"
+        android:layout_weight="30"
+        android:background="#FF296596"
+        android:backgroundTint="#FF296596"
+        android:onClick="onspoi"
+        android:text="SEARCH P O I"
         android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
         android:textColor="#FFFFFF"
         android:textSize="40sp" />

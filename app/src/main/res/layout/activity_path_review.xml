@@ -8,12 +8,12 @@
     android:layout_weight="1"
     android:orientation="vertical"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="khushboo.rohit.osmnavi.pathReview">
+    tools:context="khushboo.rohit.osmnavi.NavigationActivity">
 
     <Button
         android:id="@+id/button13"
         android:layout_width="match_parent"
-        android:contentDescription="To Repeat the instruction tap this "
+        android:contentDescription="Repeat instruction  "
         android:layout_height="30dp"
         android:layout_above="@+id/button17"
         android:background="#FF296596"
@@ -40,7 +40,7 @@
             android:background="#FF296596"
             android:onClick="previous"
             android:text="PREVIOUS"
-            android:contentDescription="For the previous instruction tap this "
+            android:contentDescription="Previous instruction "
             android:textColor="#FFFFFF"
             android:textSize="35sp"
             android:layout_width="50dp"
@@ -59,7 +59,7 @@
             android:id="@+id/button18"
             android:layout_toEndOf="@+id/button17"
             android:background="#FF296596"
-            android:contentDescription="For the next instruction tap this "
+            android:contentDescription="Next instruction "
             android:onClick="next"
             android:text="NEXT"
             android:textColor="#FFFFFF"
@@ -81,7 +81,7 @@
     <Button
         android:id="@+id/button20"
         android:layout_width="match_parent"
-        android:contentDescription="For getting road attributes tap this "
+        android:contentDescription="Get road attributes "
         android:layout_height="30dp"
         android:background="#FF296596"
         android:textColor="#FFFFFF"
@@ -102,14 +102,14 @@
         android:id="@+id/button19"
         android:layout_width="match_parent"
         android:layout_height="30dp"
-        android:contentDescription="To exit route pre-planning tap this "
+        android:contentDescription="Exit "
         android:background="#FF296596"
         android:textColor="#FFFFFF"
         android:layout_weight="30"
         android:textSize="35sp"
         android:layout_below="@+id/button17"
-        android:onClick="back"
-        android:text="BACK" />
+        android:onClick="onStopButton"
+        android:text="EXIT" />
 
 
 

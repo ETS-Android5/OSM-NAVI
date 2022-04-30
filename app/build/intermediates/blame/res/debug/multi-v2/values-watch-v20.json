@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/arjun/Documents/NAVI/v_20_07_20_POI_AutoPlaceComplete/OSM_NAVI/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "/home/arjun/.gradle/caches/transforms-2/files-2.1/f1b9f241302b3f08adddc9fece6eea17/res/values-watch-v20/values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        }
+    ]
+}

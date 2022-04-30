@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context=".image_recognition"
+    android:layout_weight="1"
+    >
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="0.75">
+        <ImageView
+
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_below="@id/LinearLayout02"
+            android:layout_height="255dp"
+
+            android:layout_margin="4dp"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/relative1"
+        android:layout_marginTop="0dp"
+        android:layout_below="@id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="0.25">
+        <TextView
+            android:id="@+id/responseView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_below="@id/LinearLayout03"
+            android:layout_alignParentBottom="true"
+            android:scrollHorizontally="false"
+            android:background="#000"
+            android:text=""
+            android:textSize="30dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp" />
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -8,26 +8,20 @@
     android:orientation="vertical"
     android:id="@+id/myLayout"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="khushboo.rohit.osmnavi.MainActivity">
+    tools:context="khushboo.rohit.osmnavi.NavigationActivity">
     <!--android:paddingBottom="5sp"-->
     <!--android:paddingTop="5sp"-->
 
-    <ProgressBar
-        android:id="@+id/progressbar"
-        style="?android:attr/progressBarStyleHorizontal"
-        android:layout_width="match_parent"
-        android:layout_height="10dp"
-        android:layout_weight="30" />
     <Button
         android:id="@+id/buttonNext"
         style="@android:style/Widget.Holo.Light.Button.Toggle"
         android:layout_width="match_parent"
-        android:contentDescription="For the next instruction tap this "
+        android:contentDescription="Next instruction "
         android:layout_height="43dp"
         android:layout_weight="30"
         android:background="#FF296596"
         android:onClick="onNextButton"
-        android:text="Next Instruction"
+        android:text="Next Instruction "
         android:textColor="#FFFFFF"
         android:textSize="40sp" />
 
@@ -49,10 +43,50 @@
         android:text="Nearby P O I"
         android:textColor="#FFFFFF"
         android:textSize="40sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="5sp"
+        android:background="#FFFFF0" />
+
+
+
+
+    <Button
+        android:id="@+id/button_wai"
+        style="@android:style/Widget.Holo.Button.Toggle"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_weight="30"
+        android:background="#FF296596"
+        android:backgroundTint="#FF296596"
+        android:contentDescription="Where Am I "
+        android:onClick="whereAmI"
+        android:text="Where Am I"
+        android:textSize="40sp" />
+
     <View
         android:layout_width="fill_parent"
         android:layout_height="5sp"
         android:background="#FFFFF0"/>
+
+
+    <!--Button
+        android:id="@+id/buttonScene"
+        style="@android:style/Widget.Holo.Light.Button.Toggle"
+        android:contentDescription="Scene Description "
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_weight="30"
+        android:background="#FF296596"
+        android:onClick="onImageButton"
+        android:text="Scene Description"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="5sp"
+        android:background="#FFFFF0"/!-->
 
 
     <Button
@@ -64,8 +98,8 @@
         android:id="@+id/button"
         style="@android:style/Widget.Holo.Light.Button.Toggle"
         android:layout_width="match_parent"
-        android:onClick="changeLayout"
-        android:contentDescription="To enter a landmark, tap this "
+        android:onClick="onSaveLandmark"
+        android:contentDescription="Save Landmark "
         android:text="Add Landmark"
         />
 
@@ -83,7 +117,7 @@
         android:textSize="40sp"
         android:layout_width="match_parent"
         android:text="Save route"
-        android:contentDescription="To save this route, tap this "
+        android:contentDescription="Save Route "
         android:id="@+id/button_save"
         android:onClick="onSaveButton"
         style="@android:style/Widget.Holo.Light.Button.Toggle" />
@@ -97,12 +131,12 @@
     <Button
         android:id="@+id/button8"
         style="@android:style/Widget.Holo.Light.Button.Toggle"
-        android:contentDescription="Stop Button. To Stop Navigating tap this "
+        android:contentDescription="Stop Navigation "
         android:layout_width="match_parent"
         android:layout_height="30dp"
         android:layout_weight="30"
         android:background="#FF296596"
-        android:onClick="onStartButton"
+        android:onClick="onStopButton"
         android:text="Stop"
         android:textColor="#FFFFFF"
         android:textSize="40sp" />

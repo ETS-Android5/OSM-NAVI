@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="khushboo.rohit.osmnavi.SearchPOI">
+    <!--android:paddingBottom="5sp"-->
+    <!--android:paddingTop="5sp"-->
+
+    <Button
+        android:backgroundTint="#FF296596"
+        android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
+        android:layout_width="match_parent"
+        android:text="ATM"
+        android:contentDescription="Search A T M "
+        android:id="@+id/button_satm"
+        android:onClick="on_satm"
+        style="@android:style/Widget.Holo.Light.Button.Toggle"
+        android:layout_weight="30"
+        android:layout_height="30dp"
+        android:background="#FF296596"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="5sp"
+        android:background="#FFFFF0" />
+
+    <Button
+        android:backgroundTint="#FF296596"
+        android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
+        android:layout_width="match_parent"
+        android:text="BUS STOP"
+        android:contentDescription="Search Bus Stop "
+        android:id="@+id/button_sbs"
+        android:onClick="on_sbs"
+        style="@android:style/Widget.Holo.Light.Button.Toggle"
+        android:layout_weight="30"
+        android:layout_height="30dp"
+        android:background="#FF296596"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="5sp"
+        android:background="#FFFFF0" />
+
+
+    <Button
+        android:backgroundTint="#FF296596"
+        android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
+        android:layout_width="match_parent"
+        android:text="MARKET"
+        android:contentDescription="Search Market "
+        android:id="@+id/button_sm"
+        android:onClick="on_sm"
+        style="@android:style/Widget.Holo.Light.Button.Toggle"
+        android:layout_weight="30"
+        android:layout_height="30dp"
+        android:background="#FF296596"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="5sp"
+        android:background="#FFFFF0" />
+
+    <Button
+        android:id="@+id/button8"
+        style="@android:style/Widget.Holo.Light.Button.Toggle"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_weight="30"
+        android:background="#FF296596"
+        android:backgroundTint="#FF296596"
+        android:contentDescription="Custom Search "
+        android:onClick="on_cs"
+        android:text="CUSTOM SEARCH"
+        android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp" />
+
+</LinearLayout>
+

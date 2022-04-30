@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="khushboo.rohit.osmnavi">
 
     <uses-permission android:name="android.permission.ACCESS_GPS" />
@@ -9,6 +10,9 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <library tools:node="removeAll" />
 
     <application
         android:name=".MyApp"
@@ -17,6 +21,11 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".InputPhrase"></activity>
+        <activity android:name=".POIList" />
+        <activity android:name=".SearchPOI" />
+        <activity android:name=".debugAcitivity" />
+        <activity android:name=".shareLocActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -31,6 +40,12 @@
         <activity android:name=".SaveRoute" />
         <activity android:name=".ShowRoutes" />
         <activity android:name=".AddTags" />
+        <activity android:name=".ImageActivity" />
+        <activity android:name=".image_recognition" />
+        <activity android:name=".ResultActivity" />
+        <activity android:name=".ResultActivity1" />
+        <activity android:name=".text_recognition" />
+        <activity android:name=".SuggestRoute" />
         <activity android:name=".NavigationActivity" />
 
         <meta-data
@@ -40,7 +55,7 @@
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 
-        <activity android:name=".pathReview"></activity>
+        <activity android:name=".pathReview" />
     </application>
 
 </manifest>

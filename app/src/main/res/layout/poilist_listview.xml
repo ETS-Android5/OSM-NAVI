@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvBody2"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="5dp"
+        android:background="#FF296596"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FF296596"
+        android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tvPriority2"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="0dp"
+        android:background="#FF296596"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FF296596"
+        android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2sp"
+        android:background="#FFFFF0" />
+</LinearLayout>

@@ -1,4 +1,0 @@
-#Wed Jun 06 12:45:16 IST 2018
-base.0=F\:\\Study Material\\Sem 4\\COP 315\\app_content\\versions\\vopenhouse\\osmnavi-sachin\\osmnavi-sachin\\OSM_NAVI\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\41
-path.0=classes.dex
-renamed.0=classes.dex

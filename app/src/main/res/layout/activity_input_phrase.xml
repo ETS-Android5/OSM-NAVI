@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="khushboo.rohit.osmnavi.InputPhrase">
+    <!--android:paddingBottom="5sp"-->
+    <!--android:paddingTop="5sp"-->
+
+    <EditText
+        android:id="@+id/editTextphrase"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight="30"
+        android:paddingLeft="15dp"
+        android:paddingTop="15dp"
+        android:hint="Type Here"
+        android:textSize="30sp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="5sp"
+        android:background="#FFFFF0" />
+
+    <Button
+        android:id="@+id/buttonsip"
+        style="@android:style/Widget.Holo.Light.Button.Toggle"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_weight="30"
+        android:background="#FF296596"
+        android:backgroundTint="#FF296596"
+        android:contentDescription="Speech Input "
+        android:onClick="on_sip"
+        android:text="SPEECH INPUT"
+        android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="5sp"
+        android:background="#FFFFF0" />
+
+    <Button
+        android:id="@+id/buttondp"
+        style="@android:style/Widget.Holo.Light.Button.Toggle"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_weight="30"
+        android:background="#FF296596"
+        android:backgroundTint="#FF296596"
+        android:contentDescription="Done "
+        android:onClick="on_donep"
+        android:text="DONE"
+        android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="5sp"
+        android:background="#FFFFF0" />
+
+    <Button
+        android:id="@+id/buttonpoib"
+        style="@android:style/Widget.Holo.Light.Button.Toggle"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_weight="30"
+        android:background="#FF296596"
+        android:backgroundTint="#FF296596"
+        android:contentDescription="Back "
+        android:onClick="on_backpp"
+        android:text="BACK"
+        android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp" />
+
+
+
+</LinearLayout>
+
